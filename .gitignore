@@ -1,0 +1,6 @@
+# Project exclude paths
+/index.js
+/node_modules
+.idea
+.npm
+.bash_history

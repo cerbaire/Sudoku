@@ -1,0 +1,19 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "docker run -t -i -v .:/root node:latest /bin/bash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "logic-solver": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10"
+  }
+}
